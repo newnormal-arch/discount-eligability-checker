@@ -3,6 +3,7 @@ function checkEligibility() {
     let checkboxValue = document.getElementById("member-checkbox").checked;
     let resultMessage = document.getElementById("resultMessage");
 
+    // A nested if else if statement to check the multiple conditions
     if (memberAge <= 64 && checkboxValue == true) {
         resultMessage.innerHTML = "Congratulations ! You qualify for a discount";
     } else if (memberAge >= 65) {
