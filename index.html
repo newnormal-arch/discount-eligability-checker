@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Discount Eligibility Checker</title>
+</head>
+
+<body>
+    <div class="discount-card">
+        <h1>Check Eligibility</h1>
+        <h2>Enter your age to see if you qualify for a discount.</h2>
+        <div class="input-content">
+            <input type="number" id="member-age" placeholder="Age">
+            <div class="checkbox-content">
+                <input type="checkbox" name="checkbox" id="member-checkbox">
+                <p class="checkbox-label">Select this box if your a member</p>
+            </div>
+            <button onclick="checkEligibility()">Check Eligibility</button>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
